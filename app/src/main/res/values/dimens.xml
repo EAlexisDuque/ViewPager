@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="constant_value_zero">0dp</dimen>
+    <dimen name="margin_default_value">30dp</dimen>
+    <dimen name="margin_default_valuse">20dp</dimen>
+    <dimen name="padding_default_value">10dp</dimen>
+    <dimen name="swipe_text_footer_size">16sp</dimen>
+</resources>

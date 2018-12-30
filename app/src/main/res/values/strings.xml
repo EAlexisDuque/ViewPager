@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ViewPager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment four</string>
+    <string name="swipe_to_continue">Swipte to continue</string>
+    <string name="lorem_ipsum"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus ea nesciunt odit qui, veniam. Alias asperiores atque cum deserunt eaque incidunt iure molestias quasi, quisquam quos repellendus, soluta, vero.</div></string>
+</resources>

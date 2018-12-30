@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/myGeneralCardView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/constant_value_zero"
+            android:layout_marginLeft="@dimen/margin_default_value"
+            android:layout_marginTop="@dimen/margin_default_valuse"
+            android:layout_marginRight="@dimen/margin_default_value"
+            android:layout_marginBottom="@dimen/margin_default_valuse"
+            android:layout_weight="@integer/constant_one"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ViewStub
+                    android:id="@+id/includeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/constant_value_zero"
+                    android:layout_weight="@integer/constant_one"/>
+
+                <include
+                    android:id="@+id/include"
+                    layout="@layout/swipe_footer_template"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
